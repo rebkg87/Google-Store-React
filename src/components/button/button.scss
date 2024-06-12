@@ -1,0 +1,11 @@
+@import '../../App.scss';
+
+button {
+    @include text-style-textBoldWhite;
+    width: 270px;
+    height: 50px;
+    border-radius:5px;
+    background-color: $blue-color;
+    position:center;
+    border: none;
+}

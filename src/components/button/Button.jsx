@@ -1,3 +1,4 @@
+import './button.scss'
 import PropTypes from 'prop-types';
 
 function Button({title}) {

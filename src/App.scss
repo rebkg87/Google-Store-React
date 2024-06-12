@@ -1,0 +1,55 @@
+/*  VARIABLES COLORES  */
+$pure-white-color: #FFFFFF;
+$white-color: #f8f9fa;
+$blue-color: #1a73e8;
+$light-gray-color: #58626B;
+$dark-gray-color: #353a49;
+
+/*  MIXINS TIPOGRAFÍA */
+@mixin text-style-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: $dark-gray-color;
+}
+@mixin text-style-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: $dark-gray-color;
+}
+
+@mixin text-style-textRegular {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: $light-gray-color;
+}
+
+@mixin text-style-textBold {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $light-gray-color;
+}
+
+@mixin text-style-textBoldBlue {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $blue-color;
+}
+
+@mixin text-style-textBoldWhite {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $pure-white-color;
+}
+
+@mixin text-style-textRegular {
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    color: $dark-gray-color;
+}
+
+
