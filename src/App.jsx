@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-     <Button title="Add to cart"/>
+      <Button title="Add to cart"/>
     </>
   )
 }
