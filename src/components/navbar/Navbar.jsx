@@ -1,6 +1,7 @@
 import "./navbar.scss";
 
 
+
 const Navbar = () => {
     return (
     <header className="nav-wrapper"> 
