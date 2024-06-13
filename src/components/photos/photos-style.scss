@@ -89,6 +89,15 @@ p {
     }    
 }
 
+.photoContainer {
+    container-type: inline-size;
+    padding: 15px;
+
+    .cartPhoto {
+        width: 104px;
+    }
+}
+
 
 
 
