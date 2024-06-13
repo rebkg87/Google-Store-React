@@ -1,12 +1,14 @@
 import "./App.scss";
 import Paybox from "./components/paybox/Paybox";
 
+
 function App() {
   return (
     <>
-      <Paybox />
+      <Button title="Add to cart" />
     </>
-  );
-}
+  )
+
+};
 
 export default App;
