@@ -31,12 +31,6 @@ footer{
   @include text-style-footer;   
 }
 
-
-li {
-  margin: 1em;
-  width: auto;
-}
-
 .flag {
   display: flex;
   align-items: center;
@@ -44,4 +38,13 @@ li {
 
 .flag img {
   margin-right: 1em;
+}
+
+@media only screen and (min-width:620px) and (max-width:1024px) {
+  
+}
+
+@media only screen and (max-width:620px) {
+
+  
 }
