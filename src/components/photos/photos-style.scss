@@ -51,7 +51,7 @@ p {
 }
 
 .watch-main {
-    width: 60%;
+    width: 80%;
 
     .watch-main-photo {
         height: 45cqw;
@@ -79,8 +79,10 @@ p {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap: 10px;
             container-type: inline-size;
-        
+
+
             .small-photo {
                 width: 60cqw;
                 margin-bottom: -15px;
