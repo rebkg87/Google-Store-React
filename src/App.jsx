@@ -1,16 +1,13 @@
-import "./App.scss";
-
-import Button from "./components/button/Button";
+import './App.scss'
+import ProductCart from './components/product-cart/productCart'
 
 function App() {
+
   return (
     <>
-
-      <Button title="Add to cart" />
-
+      <ProductCart/>
     </>
   )
-
 }
 
-export default App;
+export default App
