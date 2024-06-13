@@ -1,0 +1,46 @@
+@import "../../App.scss";
+
+main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+h2 {
+    @include text-style-title;
+}
+
+h3 {
+    @include text-style-subtitle;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.cart-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    height: 65%;
+
+    #cart {
+        width: 60%;
+        height: auto;
+        background-color: $white-color;
+        border-radius: 25px;
+
+        p {
+            height: 250px;
+        }
+    }
+    
+    .summary-container {
+        width: 35%;
+        height: 200px;
+        background-color: $white-color;
+    }
+}
+
