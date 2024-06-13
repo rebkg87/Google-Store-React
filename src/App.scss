@@ -1,3 +1,7 @@
+/* HACER UN FICHERO COMUN DE ESTILOS,
+IMPORTAR FICHERO DE VARIABLES
+IMPORTAR OTROS FICHEROS DE ESTILOS */
+
 /*  VARIABLES COLORES  */
 $pure-white-color: #FFFFFF;
 $white-color: #f8f9fa;
@@ -53,4 +57,12 @@ $dark-gray-color: #353a49;
     color: $dark-gray-color;
 }
 
+#root {
+    width: 100vw;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
 

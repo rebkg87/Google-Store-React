@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* HACER UN FICHERO COMUN DE ESTILOS,
+IMPORTAR FICHERO DE VARIABLES
+IMPORTAR OTROS FICHEROS DE ESTILOS */
+/*  VARIABLES COLORES  */
+/*  MIXINS TIPOGRAFÍA */
+#root {
+  width: 100vw;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
