@@ -33,6 +33,14 @@ $dark-gray-color: #353a49;
     color: $light-gray-color;
 }
 
+
+@mixin text-style-textBoldDark {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $dark-gray-color;
+}
+
 @mixin text-style-textBoldBlue {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
