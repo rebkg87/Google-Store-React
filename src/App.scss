@@ -46,7 +46,7 @@ $dark-gray-color: #353a49;
     color: $pure-white-color;
 }
 
-@mixin text-style-textRegular {
+@mixin text-style-footer {
     font-family: 'Inter', sans-serif;
     font-size: 8px;
     color: $dark-gray-color;
