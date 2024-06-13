@@ -1,0 +1,41 @@
+@import "../../App.scss";
+
+h3 {
+    @include text-style-textRegular;
+}
+
+.color-container {
+    display: flex;
+    gap: 9px;
+
+    .color {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid $light-gray-color;
+    }
+}
+
+.celeste {
+    background-color: #9ec6ea;
+}
+
+.beige {
+    background-color: #e6e3df;
+}
+
+.negro {
+    background-color: #4b4b4d;
+}
+
+.gris {
+    background-color: #d2d7da;
+}
+
+.verde {
+    background-color: #dfe5b7;
+}
+
+.rojo {
+    background-color: #e18472;
+}

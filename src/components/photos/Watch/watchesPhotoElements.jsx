@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 function BlackWatch({photoClass}) {
-
     return (
     <>
         <img src="/assets/images/smartwatch/smartwatch_black.png" alt="black smartwatch photo" id="black" className={photoClass}/>
@@ -10,7 +9,6 @@ function BlackWatch({photoClass}) {
 }
 
 function YellowWatch({photoClass}) {
-
     return (
     <>
         <img src="/assets/images/smartwatch/smartwatch_yellow.png" alt="yellow smartwatch photo" id="yellow" className={photoClass}/>
@@ -19,7 +17,6 @@ function YellowWatch({photoClass}) {
 }
 
 function PinkWatch({photoClass}) {
-
     return (
     <>
         <img src="/assets/images/smartwatch/smartwatch_pink.png" alt="pink smartwatch photo" id="pink" className={photoClass}/>
