@@ -1,5 +1,5 @@
 
-const footer =()=>{
+const Footer =()=>{
 
   return (
     <footer>
