@@ -1,5 +1,8 @@
 import Navbar from "../navbar/Navbar"
 import "./cart-page-style.scss"
+import Summary from "../order-summary/OrderSummary"
+import Footer from "../Footer/Footer"
+
 
 function CartPage ({quantity}) {
     return(
@@ -13,15 +16,12 @@ function CartPage ({quantity}) {
                     <p>Aqui va producto</p>
                     <p>Aqui va producto</p>
                     <p>Aqui va producto</p>
-                    <p>Aqui va producto</p>
-                    <p>Aqui va producto</p>
-                    <p>Aqui va producto</p>
 
                 </section>
-                <p className="summary-container">AQUI VA ORDER SUMMARY</p>
+                <Summary/>
             </section>
         </main>
-        <p>Aqui va footer</p>
+        <Footer/>
         </>
     )
 }

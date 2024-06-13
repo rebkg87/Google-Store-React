@@ -1,0 +1,47 @@
+@import "../../App.scss";
+
+footer{
+  width: 100%;
+  background-color: $white-color;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  height: 33px;
+  margin-top: 5em;
+}
+
+.footer-icons {
+  display:flex;
+  align-items: center; 
+  width: 40%;
+  justify-content: center;   
+}
+
+.footer-icons a {
+  margin: 0 6px;
+  display: block;  
+}
+
+.footer-info-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%; 
+  padding-right: 15%;
+  @include text-style-footer;   
+}
+
+
+li {
+  margin: 1em;
+  width: auto;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+}
+
+.flag img {
+  margin-right: 1em;
+}
