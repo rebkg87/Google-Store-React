@@ -1,0 +1,40 @@
+@import "../../App.scss";
+
+.shopping-cart {
+    background-color: $white-color;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 16px;
+
+    h2 {
+        @include text-style-title;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    hr {
+        height: 1px;
+        width: 95%;
+        background-color: #000000;
+        border: none;
+    }
+}
+
+.wrapper-cart {
+    margin-top: 19px;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .select {
+        width: 15%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}
