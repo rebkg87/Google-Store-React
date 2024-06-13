@@ -32,6 +32,14 @@ $dark-gray-color: #353a49;
     color: $light-gray-color;
 }
 
+
+@mixin text-style-textBoldDark {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: $dark-gray-color;
+}
+
 @mixin text-style-textBoldBlue {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -46,7 +54,7 @@ $dark-gray-color: #353a49;
     color: $pure-white-color;
 }
 
-@mixin text-style-textRegular {
+@mixin text-style-footer {
     font-family: 'Inter', sans-serif;
     font-size: 8px;
     color: $dark-gray-color;
