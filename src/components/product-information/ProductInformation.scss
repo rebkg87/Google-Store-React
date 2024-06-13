@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+h1 {
+    @include text-style-title
+};
+
+h2 {
+    @include text-style-subtitle
+};
+
+h3 {
+    @include text-style-textRegular
+};
