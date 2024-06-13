@@ -1,6 +1,5 @@
 import "./App.scss";
-import Paybox from "./components/paybox/Paybox";
-
+import Button from "./components/button/Button";
 
 function App() {
   return (
