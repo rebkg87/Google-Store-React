@@ -1,11 +1,12 @@
-import './App.scss'
-import ProductCart from './components/product-cart/productCart'
+import "./App.scss";
+
 
 function App() {
 
   return (
     <>
-      <ProductCart/>
+
+
     </>
   )
 }

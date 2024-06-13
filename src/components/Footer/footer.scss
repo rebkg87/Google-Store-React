@@ -1,0 +1,24 @@
+@import "../../App.scss";
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+
+.footer-icons {
+  height: 45px;
+  margin-left: 0;
+  gap: 20px;
+}
+
+.footer-info-list ul {
+  display: block;
+}
+
+.footer-info {
+  margin-right: 0;
+  @include text-style-footer;
+}
+
