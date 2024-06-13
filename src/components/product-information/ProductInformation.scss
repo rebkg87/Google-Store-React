@@ -1,13 +1,16 @@
 @import "../../App.scss";
 
 h1 {
-    @include text-style-title
+    @include text-style-title;
+    margin-bottom: 15px;
 };
 
 h2 {
-    @include text-style-subtitle
+    @include text-style-subtitle;
+ 
 };
 
 h3 {
-    @include text-style-textRegular
+    @include text-style-textRegular;
+    margin-bottom: 15px;
 };

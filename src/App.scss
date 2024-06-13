@@ -61,4 +61,10 @@ $dark-gray-color: #353a49;
     color: $dark-gray-color;
 }
 
+@mixin text-style-textRegularThin {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: $light-gray-color;
+}
 
