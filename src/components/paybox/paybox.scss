@@ -12,6 +12,7 @@
         @include text-style-title;
         font-size: 25px;
         margin-left: 10px;
+        margin-bottom: 22px;
     }
 
     hr {
@@ -24,8 +25,10 @@
 
 .quantity {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
+    margin-top: 24px;
+    margin-bottom: 50px;
 
     .select {
         width: 15%;
