@@ -4,7 +4,6 @@ import Paybox from "../paybox/Paybox";
 import { WatchMainPhoto } from "../photos/MainPhoto";
 import ProductInformation from "../product-information/ProductInformation";
 import { WatchSelectColors } from "../photos/Watch/WatchSelectColors";
-import Footer from "../Footer/Footer";
 
 function WatchIndex() {
 
@@ -27,7 +26,6 @@ function WatchIndex() {
                     </section>
                 </section>
             </main>
-            <Footer />
         </body>
     )
 };
