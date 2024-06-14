@@ -13,7 +13,7 @@ function IndexEarbuds() {
         <Navbar />
       </header>
       <main>
-        <div className="product-details">
+        <div className="earbuds-details">
           <img src="../../../public/assets/images/icons/Arrow.svg"></img>
           <p>See product details</p>
         </div>
@@ -28,17 +28,17 @@ function IndexEarbuds() {
               />
             </div>
             <div className="cart-container">
-            <div className="choose-color">
-              <ColorEarbuds />
-            </div>
-            <div className="add-to-cart">
-              <Paybox price="229" />
-            </div>
+              <div className="choose-color">
+                <ColorEarbuds />
+              </div>
+              <div className="add-to-cart">
+                <Paybox price="229" />
+              </div>
             </div>
           </div>
         </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
