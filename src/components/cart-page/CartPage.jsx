@@ -2,7 +2,7 @@ import Navbar from "../navbar/Navbar"
 import "./cart-page-style.scss"
 import Summary from "../order-summary/OrderSummary"
 import Footer from "../Footer/Footer"
-
+import ProductCart from "../product-cart/productCart"
 
 function CartPage ({quantity}) {
     return(
@@ -13,8 +13,10 @@ function CartPage ({quantity}) {
             <h3>({quantity} items)</h3>
             <section  className="cart-container">
                 <section id="cart">
-                    <p>Aqui va producto</p>
-                    <p>Aqui va producto</p>
+                        <ProductCart/>
+                        <hr />
+                    
+                    
                     <p>Aqui va producto</p>
 
                 </section>
