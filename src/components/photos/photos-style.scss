@@ -10,10 +10,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%; 
+    height: 100%; 
     container-type: inline-size;
-    height: 558px;
-    /* cambiar alto fijo por % una vez definido el alto del contenedor-padre */
 }
 
 .earbuds-photo-section {
@@ -51,10 +49,10 @@ p {
 }
 
 .watch-main {
-    width: 80%;
+    width: 95%;
 
     .watch-main-photo {
-        height: 45cqw;
+        height: 80%;
     }
 }
 
@@ -104,7 +102,43 @@ p {
 
 
 
+/* Tablet */ 
+@media only screen and (min-width:620px) and (max-width:1024px) {
 
+    .watch-colors {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .watch-container {
+        border: 1px $light-gray-color solid;
+        border-radius: 5px;
+        width: 50px;
+        height: 113px;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        container-type: inline-size;
+    }
+
+}
+
+/* Mobil */ 
+@media only screen and (max-width:620px) {
+
+    .watch-colors,
+    .main-container {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+
+}
 
 
 

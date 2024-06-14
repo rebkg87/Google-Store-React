@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import "../photos-style.scss";
 
 function EarbudsCase({photoClass}) {
     return (

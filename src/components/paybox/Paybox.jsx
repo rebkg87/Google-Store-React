@@ -1,4 +1,5 @@
 import Button from "../button/Button";
+import Delivery from "../delivery/Delivery";
 import "./paybox.scss";
 import PropTypes from "prop-types";
 
@@ -24,6 +25,7 @@ function Paybox({ price }) {
         </select>
         <Button className="add-to-cart" title="Add to cart" />
       </div>
+      <Delivery />
     </div>
   );
 }
