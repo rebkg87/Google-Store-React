@@ -12,8 +12,8 @@ function ProductInformation({ title, subtitle, price }) {
 }
 
 ProductInformation.propTypes = {
-  title: PropTypes.number,
-  subtitle: PropTypes.number,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
   price: PropTypes.number,
 };
 

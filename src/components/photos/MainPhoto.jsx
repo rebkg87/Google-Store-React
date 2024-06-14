@@ -1,15 +1,8 @@
-import { BlackWatch, YellowWatch, PinkWatch } from "./Watch/watchesPhotoElements" ;
+import React, { useContext } from 'react';
 import { EarbudsCase, EarbudFront, EarbudSide, TwoEarbuds } from "./Earbuds/earbudsPhotoElements";
 import { SelectEarbuds } from "./Earbuds/SelectEarbuds";
 import "./photos-style.scss"
-
-function WatchMainPhoto() {
-    return (
-    <section className="watch-main main-container">
-        <BlackWatch photoClass="watch-main-photo"/>
-    </section>
-    )
-} 
+import { PhotoContext } from "./photo-context";
 
 function EarbudsPhotoSection () {
     return (
@@ -18,7 +11,6 @@ function EarbudsPhotoSection () {
             <EarbudsMainPhoto/>
         </section>
         )
-
 }
 
 function EarbudsMainPhoto() {
@@ -27,6 +19,23 @@ function EarbudsMainPhoto() {
         <EarbudsCase photoClass="buds-main-photo"/>
     </section>
     )
+}
+
+function Watch ({ photoClass, photoUrl }) {
+    return <img className={photoClass} src={photoUrl} alt="Watch" />;
+};
+
+
+function WatchMainPhoto () {
+
+    const { selectedPhoto } = useContext(PhotoContext);
+
+    return (
+        <section className="watch-main main-container">
+            <Watch photoClass="watch-main-photo" photoUrl={selectedPhoto}/>
+        </section>
+    )
+
 }
 
 export {WatchMainPhoto, EarbudsPhotoSection }

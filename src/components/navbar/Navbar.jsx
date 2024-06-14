@@ -40,7 +40,7 @@ const Navbar = () => {
                     <li><a>Subsciptions</a></li>
                 </ul>
             </nav>
-            <span class="iconos-nav">
+            <span className="iconos-nav">
                 <img src="/assets/images/icons/Search.svg"  />
                 <img src="/assets/images/icons/Help.svg"  />
                 <img className="cart-icon" src="/assets/images/icons/Cart.svg" />

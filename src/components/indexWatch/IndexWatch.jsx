@@ -8,13 +8,13 @@ import Footer from "../Footer/Footer";
 
 function WatchIndex() {
   return (
-    <body>
+    <div>
       <Navbar />
       <main className="main">
         <div className="arrow">
           <a href="">
             <img src="./assets/images/icons/Arrow.svg" />
-          </a>{" "}
+          </a>
           <p className="see-product">See product details</p>
         </div>
         <section className="product-details">
@@ -35,7 +35,7 @@ function WatchIndex() {
         </section>
       </main>
       <Footer />
-    </body>
+    </div>
   );
 }
 
