@@ -1,9 +1,12 @@
+
 import "./footer.scss";
+
 
 const Footer =()=>{
 
   return (
-    <footer className="footer">
+
+    <footer>
     <div className="footer-icons">
       <a href='https://x.com/Google'>
         <img src="/assets/images/icons/SM-x.svg" alt="x" />
@@ -32,4 +35,5 @@ const Footer =()=>{
 }
 
   export default Footer;
+
 

@@ -1,6 +1,7 @@
 @import '../../App.scss';
 
 .content-recive {   
+
     width: 35%;
     height: 50%;
     border-radius: 25px;
@@ -42,6 +43,7 @@
     @include text-style-textBoldDark;  
 } */
 
+
 .text-price {
     @include text-style-textRegular;
 }
@@ -71,3 +73,4 @@
         }
     }
 }
+

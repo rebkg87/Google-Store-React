@@ -1,6 +1,7 @@
 import Button from "../button/Button";
 import "../order-summary/OrderSummary.scss";
 
+
 function Summary ({subtotal}, {total}) {
     return (
         <section className="content-recive">
@@ -31,6 +32,7 @@ function Summary ({subtotal}, {total}) {
             </div>
             <div >
             <Button title="Complete the purchase" className="button"/>
+
             </div>
         </section >
     )
