@@ -1,18 +1,25 @@
 import "./App.scss";
+
 import IndexEarbuds from "./components/index-earbuds/IndexEarbuds";
 
-// import Button from "./components/button/Button";
+import WatchIndex from "./components/indexWatch/IndexWatch";
+
+
 
 function App() {
+
   return (
     <>
 
-      {/* <Button title="Add to cart" /> */}
+
       <IndexEarbuds />
+
+
+     <WatchIndex />
 
     </>
   )
 
-}
+};
 
-export default App;
+export default App

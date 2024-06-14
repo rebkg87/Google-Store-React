@@ -1,0 +1,76 @@
+@import '../../App.scss';
+
+.content-recive {   
+
+    width: 35%;
+    height: 50%;
+    border-radius: 25px;
+    background-color: $white-color;
+    padding: 3em;
+
+    h3 {
+        @include text-style-subtitle;
+    }
+
+    .final-recive{  
+
+        .item{
+            display:flex;
+            justify-content: space-between;
+            padding: 5px; 
+            margin-bottom: 1em;
+        }
+        
+        .total{
+            margin-top: 1em;
+        }
+
+        .div-p {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+    }
+
+    .button{
+        width: 95%;
+    }
+}
+
+/* .text-bold {
+    @include text-style-textBoldDark;  
+} */
+
+
+.text-price {
+    @include text-style-textRegular;
+}
+
+.text-footer {
+    @include  text-style-footer;
+}
+
+@media only screen and (min-width:620px) and (max-width:1024px) {
+    .content-recive {
+        width: 100%;
+        height: auto;
+
+        .item {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .content-recive {
+        width: 100%;
+        height: auto;
+
+        .item {
+            margin-bottom: 0;
+        }
+    }
+}
+
