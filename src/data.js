@@ -22,7 +22,7 @@ const smartwatch = [
 const earbuds = [
 {
     title: "Google Pixel Buds Pro",
-    price: 229,
+    price: 229.00,
     color: "Blue",
     category: "Music & Sound",
 }
