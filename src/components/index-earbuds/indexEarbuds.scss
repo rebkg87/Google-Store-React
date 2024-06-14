@@ -1,14 +1,19 @@
+main {
+    padding: 0 25px;
+}
+
 .wrapper-photos {
     display: flex;
     flex-direction: row;
 }
 
-.product-details {
+.earbuds-details {
     display: flex;
     flex-direction: row;
     gap: 13px;
     margin-top: 79px;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .product-info {
@@ -39,15 +44,32 @@
 
 }
 
+//Tablet
+@media only screen and (min-width:620px) and (max-width:1024px) {
+    .wrapper-photos {
+        flex-direction: column;
+    }
 
+    .cart-container {
+        flex-direction: row;
+        gap: 100px;
+        justify-content: space-between;
+    }
 
+    .add-to-cart {
+        width: 50%;
+    }
+}
 
-/* MAYOR O IGUAL DE 768PX (A PARTIR DE 768PX INCLUSIVE) - SMARTPHONES GRANDES, TABLETS */
-@media only screen and (min-width: 834px) {
-    .product-details {
+//Phones
+@media only screen and (max-width:620px) {
+    .wrapper-photos {
+        flex-direction: column;
+    }
 
-        .wrapper-photos {
-            flex-direction: column;
-        }
+    .cart-container {
+        flex-direction: column;
+        gap: 0;
+        justify-content: space-between;
     }
 }
