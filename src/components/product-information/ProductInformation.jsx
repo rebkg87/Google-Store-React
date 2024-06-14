@@ -1,4 +1,5 @@
 import "../product-information/ProductInformation.scss";
+import PropTypes from "prop-types";
 
 function ProductInformation  ({title ,subtitle,price}) {
     return (
@@ -8,7 +9,14 @@ function ProductInformation  ({title ,subtitle,price}) {
             <h2>{price}</h2>
         </section>
     )
-};
+}
+
+
+ProductInformation.propTypes = {
+    title: PropTypes.number,
+    subtitle: PropTypes.number,
+    price: PropTypes.number,
+  };
 //Google Pixel Buds Pro
 //Music & Sound
 //229 €

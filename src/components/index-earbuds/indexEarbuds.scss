@@ -1,0 +1,53 @@
+.wrapper-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-top: 79px;
+    margin-left: 20px;
+}
+
+.product-info {
+    border-bottom: 0.5px solid black;
+
+    h1 {
+        margin-bottom: 26px;
+    }
+
+    h3 {
+        margin-bottom: 28px;
+    }
+
+    h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+
+    .colors {
+        margin: 26px 0;
+    }
+
+
+}
+
+
+
+
+/* MAYOR O IGUAL DE 768PX (A PARTIR DE 768PX INCLUSIVE) - SMARTPHONES GRANDES, TABLETS */
+@media only screen and (min-width: 834px) {
+    .product-details {
+
+        .wrapper-photos {
+            flex-direction: column;
+        }
+    }
+}
