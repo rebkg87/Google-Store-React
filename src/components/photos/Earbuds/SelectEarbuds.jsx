@@ -2,7 +2,7 @@ import { EarbudsCase, EarbudFront, EarbudSide, TwoEarbuds } from "./earbudsPhoto
 
 function SelectEarbuds() {
     return (
-        <section class="buds-mini-photos">
+        <section className="buds-mini-photos">
             <SelectCase/>
             <SelectFront/> 
             <SelectSide/> 

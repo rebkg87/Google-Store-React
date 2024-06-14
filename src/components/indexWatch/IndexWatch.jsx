@@ -21,9 +21,10 @@ function WatchIndex() {
                     </section>
                     <section className="right">
                         <ProductInformation />
-
-                        <WatchSelectColors />
-                        <Paybox className="paybox"/>
+                            <section className="color-paybox">
+                                <WatchSelectColors />
+                                <Paybox className="paybox"/>
+                            </section>
                     </section>
                 </section>
             </main>
