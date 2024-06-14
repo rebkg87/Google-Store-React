@@ -26,11 +26,7 @@ $dark-gray-color: #353a49;
 @mixin text-style-textRegular {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
-<<<<<<< HEAD
     font-weight: 300;
-=======
-    font-weight: 400;
->>>>>>> 31a2f298ed38f4f9d14c2f9370a545bd0b65637c
     color: $light-gray-color;
 }
 
@@ -75,14 +71,11 @@ $dark-gray-color: #353a49;
     font-weight: 100;
     color: $light-gray-color;
 }
-<<<<<<< HEAD
 
 #root {
     width: 100vw;
     height: auto;
 }
-=======
->>>>>>> 31a2f298ed38f4f9d14c2f9370a545bd0b65637c
 
 * {
     box-sizing: border-box;
