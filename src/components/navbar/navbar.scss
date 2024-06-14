@@ -70,7 +70,7 @@ ul.menu {
 }
 
 
-@media (min-width: 685px) and (max-width: 990px) {
+@media only screen and (min-width:620px) and (max-width:1024px) {
 
     .iconos-nav img {
     margin-right: 8px;
@@ -85,7 +85,7 @@ ul.menu {
 }
 
 
-@media (max-width: 684px) {
+@media only screen and (max-width:620px) {
     .nav-wrapper {
         justify-content: space-between;
     }

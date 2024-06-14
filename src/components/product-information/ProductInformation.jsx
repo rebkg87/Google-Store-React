@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function ProductInformation  ({title ,subtitle,price}) {
     return (
         <section className="product-info">
-            <h1>Google Pixel Buds Pro</h1>
+            <h1>Fitbit Inspire 3</h1>
             <h3>Music & Sound</h3>
             <h2>229 €</h2>
         </section>
