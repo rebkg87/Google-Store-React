@@ -1,7 +1,11 @@
 
+import "./footer.scss";
+
+
 const Footer =()=>{
 
   return (
+
     <footer>
     <div className="footer-icons">
       <a href='https://x.com/Google'>
@@ -19,23 +23,17 @@ const Footer =()=>{
         <a href="https://www.tiktok.com/tiktokstudio">
         <img src="/assets/images/icons/SM-tiktok.svg" alt="tiktok" />
         </a>
-      </div>
-      <div className="footer-info">
-        <div className="flag">
-          <img src={spainFlag} alt="Spain flag" />
-        </div>
-        <div className="footer-info-list">
-          <ul>
-            <li>Spain</li>
-            <li> Google Nest Commitment to Privacy</li>
-            <li>Sales Terms</li>
-            <li>Terms of Service</li>
-          </ul>
-        </div>
-      </div>
+    </div>
+        <ul className="footer-info-list">
+          <li className="flag"><img src="/assets/images/icons/Spain.svg" alt="Spain flag"/>Spain</li>
+          <li> Google Nest Commitment to Privacy</li>
+          <li>Sales Terms</li>
+          <li>Terms of Service</li>
+        </ul>
     </footer>
   );
 }
- 
-  export default footer;
+
+  export default Footer;
+
 

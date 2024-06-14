@@ -1,24 +1,51 @@
 @import "../../App.scss";
 
-footer {
+footer{
+  width: 100%;
+  background-color: $white-color;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0;
+  justify-content: space-between;
+  margin-right: 20px;
+  height: 33px;
+  margin-top: 5em;
 }
 
 .footer-icons {
-  height: 45px;
-  margin-left: 0;
-  gap: 20px;
+  display:flex;
+  align-items: center; 
+  width: 40%;
+  justify-content: center;   
 }
 
-.footer-info-list ul {
-  display: block;
+.footer-icons a {
+  margin: 0 6px;
+  display: block;  
 }
 
-.footer-info {
-  margin-right: 0;
-  @include text-style-footer;
+.footer-info-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%; 
+  padding-right: 15%;
+  @include text-style-footer;   
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+}
+
+.flag img {
+  margin-right: 1em;
+}
+
+@media only screen and (min-width:620px) and (max-width:1024px) {
+  
+}
+
+@media only screen and (max-width:620px) {
+
+  
 }
 
