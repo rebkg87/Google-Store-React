@@ -7,30 +7,36 @@ import { WatchSelectColors } from "../photos/Watch/WatchSelectColors";
 import Footer from "../Footer/Footer";
 
 function WatchIndex() {
-
-    return (
-        <body>
-            <Navbar />
-            <main className="main">
-                <div className="arrow">
-                    <a href=""><img src="./assets/images/icons/Arrow.svg" class="flecha"/></a> <p className="see-product">See product details</p>
-                </div>
-                <section className="product-details">
-                    <section className="left">
-                        <WatchMainPhoto />
-                    </section>
-                    <section className="right">
-                        <ProductInformation />
-                            <section className="color-paybox">
-                                <WatchSelectColors />
-                                <Paybox className="paybox"/>
-                            </section>
-                    </section>
-                </section>
-            </main>
-            <Footer />
-        </body>
-    )
-};
+  return (
+    <body>
+      <Navbar />
+      <main className="main">
+        <div className="arrow">
+          <a href="">
+            <img src="./assets/images/icons/Arrow.svg" />
+          </a>{" "}
+          <p className="see-product">See product details</p>
+        </div>
+        <section className="product-details">
+          <section className="left">
+            <WatchMainPhoto />
+          </section>
+          <section className="right">
+            <ProductInformation
+              title="Fitbit Inspire 3"
+              subtitle="Health & Fitness Tracker"
+              price="99,95"
+            />
+            <section className="color-paybox">
+              <WatchSelectColors />
+              <Paybox price="99,95" className="paybox" />
+            </section>
+          </section>
+        </section>
+      </main>
+      <Footer />
+    </body>
+  );
+}
 
 export default WatchIndex;

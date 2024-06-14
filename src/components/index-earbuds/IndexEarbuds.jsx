@@ -24,7 +24,7 @@ function IndexEarbuds() {
               <ProductInformation
                 title="Google Pixel Buds Pro"
                 subtitle="Music & Sound"
-                price="229 €"
+                price="229"
               />
             </div>
             <div className="cart-container">
