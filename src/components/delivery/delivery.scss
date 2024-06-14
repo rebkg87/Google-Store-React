@@ -2,15 +2,17 @@
 
 .Delivers {
     display: flex;
-    justify-items: baseline;
     align-items: center;
     gap: 5px;
+    width: auto;
 }
 
 .date {
     @include text-style-textBoldBlue;
+
 }
 
 .pCode {
     @include text-style-textBold;
+
 }

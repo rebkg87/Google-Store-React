@@ -2,7 +2,7 @@ import Button from "../button/Button";
 import "../order-summary/OrderSummary.scss";
 
 
-function Summary ({subtotal}, {total}) {
+function Summary ({subtotal, total}) {
     return (
         <section className="content-recive">
                 <h3>Order Summary</h3>
