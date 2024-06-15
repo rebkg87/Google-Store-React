@@ -1,44 +1,30 @@
-import { BlackWatch, YellowWatch, PinkWatch } from "./watchesPhotoElements" ;
 
+import  { smartwatch } from "../../../data";
+import { PhotoContext } from "../photo-context";
+import React, { useContext } from 'react';
 
-function WatchSelectColors() {
+const WatchSelectColors = () => {
+
+    const { handlePhotoClick } = useContext(PhotoContext);
+
     return (
         <section className="select-colors">
             <p>Choose a color</p>
-            <div className="watch-colors"> 
-                <SelectBlack/>
-                <SelectPink/>
-                <SelectYellow/>             
+            <div className="watch-colors">
+                {smartwatch.map((photo) => (
+                    <div className="watch-container">
+                        <img
+                        src = {photo.url}
+                        alt = {photo.alt}
+                        className = "small-photo"
+                        onClick={() => handlePhotoClick(photo.url)}
+                        />
+                        <p>{photo.color}</p>
+                    </div>
+                    ))}
             </div>
         </section>
-    )
-} 
-
-function SelectBlack () {
-    return (
-        <div id="black-watch" className="watch-container">
-            <BlackWatch photoClass="small-photo"/>
-            <p>Midnight Zen</p>
-        </div>
-    )
-}
-
-function SelectPink () {
-    return (
-        <div id="pink-watch" className="watch-container">
-            <PinkWatch photoClass="small-photo"/>
-            <p>Lilac Bliss</p>
-        </div>
-    )
-}
-
-function SelectYellow () {
-    return (
-        <div id="yellow-watch" className="watch-container">
-            <YellowWatch photoClass="small-photo"/>
-            <p>Morning Glow</p>
-        </div>  
-    )
-}
+    );
+};
 
 export {WatchSelectColors}

@@ -4,15 +4,19 @@ import { WatchMainPhoto } from "../photos/MainPhoto";
 import ProductInformation from "../product-information/ProductInformation";
 import { WatchSelectColors } from "../photos/Watch/WatchSelectColors";
 import Footer from "../Footer/Footer";
+import { PhotoProvider } from "../photos/photo-context";
 
 function WatchIndex() {
   return (
+
+    
     <body>
+    <PhotoProvider defaultImage= "/assets/images/smartwatch/smartwatch_black.png">
       <main className="main-watch">
         <div className="arrow">
           <a href="">
             <img src="./assets/images/icons/Arrow.svg" />
-          </a>{" "}
+          </a>
           <p className="see-product">See product details</p>
         </div>
         <section className="product-details">
@@ -32,8 +36,10 @@ function WatchIndex() {
           </section>
         </section>
       </main>
+      </PhotoProvider>
       <Footer />
     </body>
+
   );
 }
 
