@@ -3,7 +3,7 @@ import "./colorEarbuds.scss";
 function ColorEarbuds() {
     return(
         <div className="colors">
-        <h3>Choose a color</h3>
+        <p className="color-choose-text">Choose a color</p>
         <div className="color-container">
             <div className="color celeste"></div>
             <div className="color beige"></div>

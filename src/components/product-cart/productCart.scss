@@ -21,10 +21,9 @@
 
     .text {
         @include text-style-textRegular;
-        margin-bottom: -2%;
     }
 
-    .quantity {
+    .quantity-cart {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -36,7 +35,7 @@
             display: flex;
             align-items: baseline;
     
-            .select {
+            .select-cart {
                 @include text-style-textRegular;
                 width: 45px;
                 padding: 8px;
@@ -51,7 +50,7 @@
         text-decoration: underline;
         align-self: self-end;
         margin-bottom: 2em;
-        margin-top: -4%;
+        margin-top: 2em;
         margin-right: 2%;
     }
     
@@ -59,12 +58,12 @@
         background-color: $pure-white-color;
         border-radius: 10px;
         width: 100%;
-        padding: 10px;
+        padding: 12px;
         padding-left: 1em;
         height: 50px;
         display: flex;
         align-items: center;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         
     }
     

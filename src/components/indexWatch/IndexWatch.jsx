@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 function WatchIndex() {
   return (
     <body>
-      <main className="main">
+      <main className="main-watch">
         <div className="arrow">
           <a href="">
             <img src="./assets/images/icons/Arrow.svg" />

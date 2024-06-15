@@ -1,16 +1,16 @@
 @import "../../App.scss";
 
-h1 {
+.name {
     @include text-style-title;
     margin-bottom: 15px;
 };
 
-h2 {
+.price {
     @include text-style-subtitle;
- 
+    margin-top: 15px;
+
 };
 
-p {
+.category {
     @include text-style-textRegular;
-    margin-bottom: 15px;
 };
