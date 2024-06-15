@@ -1,4 +1,3 @@
-import Navbar from "../navbar/Navbar";
 import Paybox from "../paybox/Paybox";
 import ColorEarbuds from "../color-earbuds/ColorEarbuds";
 import ProductInformation from "../product-information/ProductInformation";
@@ -10,9 +9,8 @@ function IndexEarbuds() {
   return (
     <>
       <header>
-        <Navbar />
       </header>
-      <main>
+      <main className="main-earbuds">
         <div className="earbuds-details">
           <img src="../../../public/assets/images/icons/Arrow.svg"></img>
           <p>See product details</p>
@@ -31,10 +29,10 @@ function IndexEarbuds() {
               <div className="choose-color">
                 <ColorEarbuds />
               </div>
-              <div className="add-to-cart">
+            </div>
+            <div className="add-to-cart">
                 <Paybox price="229" />
               </div>
-            </div>
           </div>
         </section>
       </main>

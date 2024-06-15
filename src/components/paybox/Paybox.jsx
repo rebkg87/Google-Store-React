@@ -10,8 +10,8 @@ function Paybox({ price }) {
         <h2>{price} €</h2>
         <hr />
       </div>
-      <div className="quantity">
-        <select className="select" name="select">
+      <div className="quantity-paybox">
+        <select className="select-paybox" name="select">
           <option value="value1">1</option>
           <option value="value2">2</option>
           <option value="value3">3</option>

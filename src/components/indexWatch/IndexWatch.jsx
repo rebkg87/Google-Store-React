@@ -1,5 +1,4 @@
 import "./indexWatch.scss";
-import Navbar from "../navbar/Navbar";
 import Paybox from "../paybox/Paybox";
 import { WatchMainPhoto } from "../photos/MainPhoto";
 import ProductInformation from "../product-information/ProductInformation";
@@ -9,10 +8,11 @@ import { PhotoProvider } from "../photos/photo-context";
 
 function WatchIndex() {
   return (
+
+    
+    <body>
     <PhotoProvider defaultImage= "/assets/images/smartwatch/smartwatch_black.png">
-    <div>
-      <Navbar />
-      <main className="main">
+      <main className="main-watch">
         <div className="arrow">
           <a href="">
             <img src="./assets/images/icons/Arrow.svg" />
@@ -36,9 +36,10 @@ function WatchIndex() {
           </section>
         </section>
       </main>
+      </PhotoProvider>
       <Footer />
-    </div>
-    </PhotoProvider>
+    </body>
+
   );
 }
 
