@@ -1,5 +1,4 @@
 import "./indexWatch.scss";
-import Navbar from "../navbar/Navbar";
 import Paybox from "../paybox/Paybox";
 import { WatchMainPhoto } from "../photos/MainPhoto";
 import ProductInformation from "../product-information/ProductInformation";
@@ -9,7 +8,6 @@ import Footer from "../Footer/Footer";
 function WatchIndex() {
   return (
     <body>
-      <Navbar />
       <main className="main">
         <div className="arrow">
           <a href="">

@@ -6,20 +6,31 @@
     box-sizing: border-box;
 }
 
+nav ul li a.active {
+    @include text-style-textBoldBlue;
+}
+
+.cart-icon {
+    fill: var($blue-color);
+}
+
 li {
     list-style: none;
     display: inline;
-}
+    margin: 0 6px;
 
-ul.menu {
-    gap: 25px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 15px;
+    a {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: $light-gray-color;
+    }
 }
 
 .nav-wrapper {
     display: flex;
+    gap: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -61,13 +72,8 @@ ul.menu {
     display: none;
 }
 
-.active {
-    @include text-style-textBoldBlue;
-}
 
-.pending {
-    @include text-style-textRegular;
-}
+
 
 
 @media only screen and (min-width:620px) and (max-width:1024px) {
