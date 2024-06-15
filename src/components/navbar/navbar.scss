@@ -11,8 +11,18 @@ nav ul li a.active {
 }
 
 .cart-icon {
-    fill: var($blue-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: $light-gray-color;
+    font-size: 20px;
+    margin-right: 0.7em;
 }
+
+.cart-icon.active {
+    color: $blue-color;
+}
+
+
 
 li {
     list-style: none;

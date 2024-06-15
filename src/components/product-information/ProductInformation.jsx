@@ -5,7 +5,7 @@ function ProductInformation({ title, subtitle, price }) {
   return (
     <section className="product-info">
       <h1>{title}</h1>
-      <h3>{subtitle}</h3>
+      <p>{subtitle}</p>
       <h2>{price} €</h2>
     </section>
   );
