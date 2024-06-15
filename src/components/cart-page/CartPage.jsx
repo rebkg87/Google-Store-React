@@ -25,7 +25,7 @@ function CartPage ({quantity}) {
                     <hr />
                     <ProductCart photo=<BlackWatch photoClass="cartPhoto"/> title={smartwatch[0].title} price={smartwatch[0].price + " €"}/>
                 </section>
-                <Summary subtotal="428.90" total="433.80"/>
+                <Summary subtotal="328.95" total="333.85"/>
             </section>
         </main>
         <Footer/>

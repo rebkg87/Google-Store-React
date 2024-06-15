@@ -20,8 +20,8 @@
     padding: 20px;
 
     .text {
-        margin-bottom: 1em;
         @include text-style-textRegular;
+        margin-bottom: -2%;
     }
 
     .quantity {
@@ -50,19 +50,21 @@
         @include text-style-textBoldBlue;
         text-decoration: underline;
         align-self: self-end;
-        margin-top: 1em;
-        margin-bottom: 4em;
+        margin-bottom: 2em;
+        margin-top: -4%;
+        margin-right: 2%;
     }
     
     .deliveryContainer {
         background-color: $pure-white-color;
         border-radius: 10px;
         width: 100%;
-        padding: 5px;
+        padding: 10px;
         padding-left: 1em;
         height: 50px;
         display: flex;
         align-items: center;
+        margin-bottom: 2em;
         
     }
     
