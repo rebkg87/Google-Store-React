@@ -1,19 +1,16 @@
 import "./App.scss";
-
-import IndexEarbuds from "./components/index-earbuds/IndexEarbuds";
-import WatchIndex from "./components/indexWatch/IndexWatch";
-import { CartPage } from "./components/cart-page/CartPage";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Dashboard from "./components/dashboard/dashboard";
 
 
 function App() {
   return (
-    <>
-      <IndexEarbuds />
-
-      <WatchIndex />
-
-      <CartPage />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/*" element={<Dashboard />}/>
+      </Routes>
+    </Router>
   );
 }
 

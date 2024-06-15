@@ -1,4 +1,3 @@
-import Navbar from "../navbar/Navbar";
 import Paybox from "../paybox/Paybox";
 import ColorEarbuds from "../color-earbuds/ColorEarbuds";
 import ProductInformation from "../product-information/ProductInformation";
@@ -10,7 +9,6 @@ function IndexEarbuds() {
   return (
     <>
       <header>
-        <Navbar />
       </header>
       <main>
         <div className="earbuds-details">
