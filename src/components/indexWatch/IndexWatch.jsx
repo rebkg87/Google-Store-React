@@ -5,9 +5,11 @@ import { WatchMainPhoto } from "../photos/MainPhoto";
 import ProductInformation from "../product-information/ProductInformation";
 import { WatchSelectColors } from "../photos/Watch/WatchSelectColors";
 import Footer from "../Footer/Footer";
+import { PhotoProvider } from "../photos/photo-context";
 
 function WatchIndex() {
   return (
+    <PhotoProvider defaultImage= "/assets/images/smartwatch/smartwatch_black.png">
     <div>
       <Navbar />
       <main className="main">
@@ -36,6 +38,7 @@ function WatchIndex() {
       </main>
       <Footer />
     </div>
+    </PhotoProvider>
   );
 }
 

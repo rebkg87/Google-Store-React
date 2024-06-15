@@ -11,10 +11,9 @@ const WatchSelectColors = () => {
         <section className="select-colors">
             <p>Choose a color</p>
             <div className="watch-colors">
-                {smartwatch.map((photo, index) => (
+                {smartwatch.map((photo) => (
                     <div className="watch-container">
                         <img
-                        key= {index}
                         src = {photo.url}
                         alt = {photo.alt}
                         className = "small-photo"

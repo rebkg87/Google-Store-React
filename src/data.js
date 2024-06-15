@@ -37,4 +37,23 @@ const earbuds = [
 }
 ]
 
-export {smartwatch, earbuds}
+const earbudsPhotos = [
+    {
+        url: "/assets/images/earbuds/earbuds_01.png", 
+        alt: "photo of earbuds in white case"
+    },
+    {
+        url: "/assets/images/earbuds/earbuds_02.png", 
+        alt: "front photo of one earbud"
+    },
+    {
+        url: "/assets/images/earbuds/earbuds_03.png", 
+        alt: "side photo of one earbud"
+    },
+    {
+        url: "/assets/images/earbuds/earbuds_04.png", 
+        alt: "front photo of two earbuds without a case"
+    }
+]
+
+export {smartwatch, earbuds, earbudsPhotos}

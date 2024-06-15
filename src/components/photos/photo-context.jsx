@@ -2,8 +2,8 @@ import React, { createContext, useState } from 'react';
 
 const PhotoContext = createContext();
 
-const PhotoProvider = ({ children }) => {
-    const [selectedPhoto, setSelectedPhoto] = useState('/assets/images/smartwatch/smartwatch_black.png'); // Default URL
+const PhotoProvider = ({ children, defaultImage }) => {
+    const [selectedPhoto, setSelectedPhoto] = useState(defaultImage); // Default URL
 
     const handlePhotoClick = (photoUrl) => {
         setSelectedPhoto(photoUrl);

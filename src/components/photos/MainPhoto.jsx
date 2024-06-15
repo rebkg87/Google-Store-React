@@ -1,28 +1,33 @@
 import React, { useContext } from 'react';
-import { EarbudsCase, EarbudFront, EarbudSide, TwoEarbuds } from "./Earbuds/earbudsPhotoElements";
-import { SelectEarbuds } from "./Earbuds/SelectEarbuds";
 import "./photos-style.scss"
-import { PhotoContext } from "./photo-context";
+import { SelectEarbuds } from "./Earbuds/SelectEarbuds";
+import { PhotoContext, PhotoProvider } from "./photo-context";
 
 function EarbudsPhotoSection () {
+    
     return (
+        <PhotoProvider defaultImage= "/assets/images/earbuds/earbuds_01.png">
         <section className="earbuds-photo-section">
             <SelectEarbuds/>
             <EarbudsMainPhoto/>
         </section>
+        </PhotoProvider>
         )
 }
 
 function EarbudsMainPhoto() {
+
+    const { selectedPhoto } = useContext(PhotoContext);
+
     return (
     <section className="earbuds-main main-container">
-        <EarbudsCase photoClass="buds-main-photo"/>
+        <img src={selectedPhoto} className="buds-main-photo" alt="earbuds"/>
     </section>
-    )
+    );
 }
 
 function Watch ({ photoClass, photoUrl }) {
-    return <img className={photoClass} src={photoUrl} alt="Watch" />;
+    return <img className={photoClass} src={photoUrl} alt="smartwatch" />;
 };
 
 
@@ -35,7 +40,6 @@ function WatchMainPhoto () {
             <Watch photoClass="watch-main-photo" photoUrl={selectedPhoto}/>
         </section>
     )
-
 }
 
 export {WatchMainPhoto, EarbudsPhotoSection }
