@@ -1,18 +1,18 @@
 @import "../../App.scss";
 
-.main {
+main {
     width: 100%;
+    margin-top: -100px;
 }
 
 .arrow {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    grid-column: span 2;
-    grid-row: span 1;
-    width: 80%;
+    align-items: left;
+    justify-content: flex-start;
+    width: 95%;
     gap: 12px;
-    margin: 40px 30px;
+    margin: 0em 1em 1.5em 1em;
 
     .see-product {
         @include text-style-textBold;
@@ -24,7 +24,7 @@
     grid-template-columns: 2fr 1fr;
     align-content: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: -5px;
     margin-left: 30px;
     margin-bottom: 40px;
     padding-bottom: 20px;
