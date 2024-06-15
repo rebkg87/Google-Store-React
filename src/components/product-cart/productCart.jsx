@@ -14,10 +14,10 @@ function ProductCart({ title, price, photo }) {
         </div>
         <div className="textContent">
             <p className="text">{title}</p>
-            <div className="quantity">
+            <div className="quantity-cart">
                 <div className="cant">
                     <p className="text">Cant:</p>
-                    <select className="select" name="select">
+                    <select className="select-cart" name="select">
                         <option value="value1">1</option>
                         <option value="value2">2</option>
                         <option value="value3">3</option>

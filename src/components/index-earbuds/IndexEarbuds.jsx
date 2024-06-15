@@ -10,7 +10,7 @@ function IndexEarbuds() {
     <>
       <header>
       </header>
-      <main>
+      <main className="main-earbuds">
         <div className="earbuds-details">
           <img src="../../../public/assets/images/icons/Arrow.svg"></img>
           <p>See product details</p>
@@ -29,10 +29,10 @@ function IndexEarbuds() {
               <div className="choose-color">
                 <ColorEarbuds />
               </div>
-              <div className="add-to-cart">
+            </div>
+            <div className="add-to-cart">
                 <Paybox price="229" />
               </div>
-            </div>
           </div>
         </section>
       </main>

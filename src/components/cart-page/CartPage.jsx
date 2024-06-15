@@ -14,10 +14,10 @@ function destructur () {
 function CartPage ({quantity}) {
     return(
         <>
-        <main>
+        <main className="main-cart">
             <h2>Cart</h2>
             <h3>({quantity} items)</h3>
-            <section  className="cart-container">
+            <section  className="cart-container-cart-page">
                 <section id="cart">
                     <ProductCart  photo=<EarbudsCase photoClass="cartPhoto"/> title={earbuds[0].title} price={parseFloat(earbuds[0].price).toFixed(2) + " €"}/>
                     <hr />

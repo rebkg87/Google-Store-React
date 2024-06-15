@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 
-main {
+.main-cart {
     width: 100%;
     height: 90%;
     display: flex;
@@ -20,7 +20,7 @@ h3 {
     margin-bottom: 2em;
 }
 
-.cart-container {
+.cart-container-cart-page {
     display: flex;
     flex-direction: row;
     align-items: flex-start;

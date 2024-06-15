@@ -1,8 +1,13 @@
 @import "../../App.scss";
 
-main {
+.main-watch{
     width: 100%;
-    margin-top: -100px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    padding-left: 1em;
 }
 
 .arrow {
@@ -15,7 +20,7 @@ main {
     margin: 0em 1em 1.5em 1em;
 
     .see-product {
-        @include text-style-textBold;
+        @include text-style-textRegular;
     }
 }
 

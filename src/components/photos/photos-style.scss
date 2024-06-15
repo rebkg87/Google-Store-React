@@ -10,14 +10,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%;
-
+    height: 100%; 
     container-type: inline-size;
 }
 
 .earbuds-photo-section {
     width: 63%;
-    height: 70%;
+    height: 70%;  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -34,19 +33,19 @@ p {
         align-items: center;
         container-type: inline-size;
 
-        .buds-mini-photo {
+        .buds-mini-photo  {
             width: 95cqw;
         }
     }
-
-    .earbuds-main {
+    .earbuds-main{
         width: 80%;
+        height: 400px;
         container-type: inline-size;
 
         .buds-main-photo {
             height: 50cqw;
         }
-
+        
     }
 }
 
@@ -68,7 +67,7 @@ p {
         display: flex;
         justify-items: space-around;
         width: 100%;
-
+    
         .watch-container {
             border: 1px $light-gray-color solid;
             border-radius: 5px;
@@ -88,13 +87,12 @@ p {
                 margin-bottom: -15px;
             }
         }
-    }
+    }    
 }
 
 .photoContainer {
-    /* container-type: inline-size; */
+    container-type: inline-size;
     padding: 15px;
-    height: 50%;
 
     .cartPhoto {
         width: 104px;
@@ -102,36 +100,8 @@ p {
 }
 
 
-//Tablet
-@media only screen and (min-width:620px) and (max-width:1024px) {
-    .earbuds-photo-section {
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .buds-mini-photos {
-        display: none;
-    }
-
-}
 
 
-//Phones
-@media only screen and (max-width:620px) {
-    .main-container{
-        height: 275px;
-    }
-    .buds-mini-photos {
-        display: none;
-    }
-
-    .earbuds-photo-section {
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
 
 /* Tablet */ 
 @media only screen and (min-width:620px) and (max-width:1024px) {
@@ -155,6 +125,11 @@ p {
         container-type: inline-size;
     }
 
+    .earbuds-main{
+        width: 80%;
+        height: 250px;
+        container-type: inline-size;
+    }
 }
 
 /* Mobil */ 
