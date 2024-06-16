@@ -25,14 +25,14 @@ function IndexEarbuds() {
                 price="229"
               />
             </div>
-            <div className="cart-container">
+            <div className="cart-container-earbuds">
               <div className="choose-color">
                 <ColorEarbuds />
               </div>
-            </div>
-            <div className="add-to-cart">
+              <div className="add-to-cart">
                 <Paybox price="229" />
               </div>
+            </div>
           </div>
         </section>
       </main>
