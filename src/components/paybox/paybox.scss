@@ -7,6 +7,7 @@
     flex-direction: column;
     margin-top: 30px;
     padding: 16px;
+    width: 100%;
 
     h2 {
         @include text-style-title;
@@ -36,4 +37,13 @@
         border: 1px solid black;
         border-radius: 5px;
     }
+}
+
+//Phones
+@media only screen and (max-width:620px) {
+    
+    .shopping-cart {
+        padding: 35px;
+    }
+
 }
