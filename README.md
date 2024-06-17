@@ -65,7 +65,6 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── pages/
 │   ├── App.jsx
 │   ├── App.scss
 │   └── data.js
@@ -77,7 +76,6 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 - **src/:** Contiene los archivos fuente de la aplicación.
     - ***assets/:*** Contiene recursos estáticos como imágenes.
     - ***components/:*** Contiene los componentes reutilizables de React.
-    - ***pages/:*** Contiene las diferentes páginas de la aplicación.
     - **App.jsx:** Componente principal de la aplicación.
     - ***App.scss:*** Estilos globales de la aplicación utilizando Sass.
     - ***data.js:*** Datos estáticos utilizados en la aplicación.
