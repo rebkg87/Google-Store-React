@@ -23,7 +23,7 @@ const Footer =()=>{
         </a>
     </div>
         <ul className="footer-info-list">
-          <li className="flag"><img src="../../../public/assets/images/icons/Spain.svg" alt="Spain flag"/>Spain</li>
+          <li className="flag"><img src="/assets/images/icons/Spain.svg" alt="Spain flag"/>Spain</li>
           <li> Google Nest Commitment to Privacy</li>
           <li>Sales Terms</li>
           <li>Terms of Service</li>

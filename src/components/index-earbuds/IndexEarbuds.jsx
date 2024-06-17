@@ -10,7 +10,7 @@ function IndexEarbuds() {
     <>
       <main className="main-earbuds">
         <div className="earbuds-details">
-          <img src="../../../public/assets/images/icons/Arrow.svg"></img>
+          <img src="/assets/images/icons/Arrow.svg"></img>
           <p>See product details</p>
         </div>
         <section className="wrapper-photos">
