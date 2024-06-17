@@ -8,8 +8,6 @@ import "./indexEarbuds.scss";
 function IndexEarbuds() {
   return (
     <>
-      <header>
-      </header>
       <main className="main-earbuds">
         <div className="earbuds-details">
           <img src="../../../public/assets/images/icons/Arrow.svg"></img>
