@@ -1,6 +1,6 @@
 import { smartwatch } from "../../../data";
 import { PhotoContext } from "../photo-context";
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 const WatchSelectColors = () => {
   const { handlePhotoClick } = useContext(PhotoContext);

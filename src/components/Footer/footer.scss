@@ -5,9 +5,10 @@ footer{
   background-color: $white-color;
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
   height: 33px;
   margin-top: 5em;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-icons {
@@ -41,11 +42,87 @@ footer{
 }
 
 @media only screen and (min-width:620px) and (max-width:1024px) {
-  
-}
 
-@media only screen and (max-width:620px) {
 
+
+  .footer-icons {
   
-}
+    width: 20%;
+  }
+  
+  
+  .footer-info-list{
+    margin-right: 45px;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-between;
+    padding-right: 0;
+    width: 80%;
+  
+  
+    @include text-style-footer;
+  }
+  
+  .flag {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag img {
+    margin-right: 1em;
+  }
+  
+  
+  
+  }
+  
+  @media only screen and (max-width:620px) {
+  
+  footer {
+  
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px; 
+      position: relative;
+      padding-bottom: 20px;
+    }
+  
+  
+  
+    .footer-info-list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      align-items: center;
+      padding:0;
+      gap:5px;
+      margin-top: 10px;
+  
+    }
+  
+     li.flag{
+     order: 1;
+     display: flex;
+     flex-direction: row-reverse;
+     gap:15%;
+    }
+  
+    .footer-icons {
+      display:flex;
+      align-items: center; 
+      width: 40%;
+      justify-content: center;
+      margin-top: 20px;
+  
+    }
+  
+    .footer-icons img {
+      margin: 0 10px;
+      display: block; 
+      width: 25px;
+  
+    }
+  }
 
