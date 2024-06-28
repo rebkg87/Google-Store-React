@@ -2,26 +2,26 @@
 
 ## Índice
 
-- [Descripción](#descripción)
-- [Instalación](#instalación)
+- [Descripción](#descripción-📝)
+- [Instalación](#instalación-⚙️)
   - [Requisitos previos](#requisitos-previos)
   - [Pasos para instalar el proyecto](#pasos-para-instalar-el-proyecto)
-- [Uso](#uso)
+- [Uso](#uso-🚀)
   - [Cómo ejecutar el proyecto](#cómo-ejecutar-el-proyecto)
   - [Ejemplos de uso](#ejemplos-de-uso)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Contribución](#contribución)
-- [Autores](#autores)
-- [Capturas de Pantalla](#capturas-de-pantalla)
-- [Licencia](#licencia)
+- [Estructura del Proyecto](#estructura-del-proyecto-📂)
+- [Funcionalidades](#funcionalidades-🛠️)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas-💻)
+- [Contribución](#contribución-🤝)
+- [Autores](#autores-👩‍💻)
+- [Capturas de Pantalla](#capturas-de-pantalla-🖼️)
+- [Licencia](#licencia-📜)
 
 ## Descripción 📝
 
 Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre React. A partir de wireframes y maquetas diseñadas, hemos desarrollado una aplicación en la librería de JavaScript, React.js, para migrar la información de Google Store y añadir ciertas funcionalidades.
 
-## Instalación⚙️
+## Instalación ⚙️
 
 ### Requisitos previos
 
@@ -136,7 +136,9 @@ Por favor, asegúrate de seguir el [Código de Conducta de GitHub](https://docs.
 
 ## Capturas de Pantalla 🖼️
 
-
+![Screenshot 2024-06-17 152654](https://github.com/rebkg87/Google-Store-React/assets/168748252/f230c053-cc1b-4822-8218-b64a66590024)
+![Screenshot 2024-06-17 152629](https://github.com/rebkg87/Google-Store-React/assets/168748252/12cea02f-4e72-4bb4-abab-7a1b97f0d812)
+![Screenshot 2024-06-17 152611](https://github.com/rebkg87/Google-Store-React/assets/168748252/0c075397-e890-429d-84e9-6dbd3b287b1c)
 
 ## Licencia 📜
 
