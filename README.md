@@ -2,26 +2,26 @@
 
 ## Índice
 
-- [Descripción](#descripción-📝)
-- [Instalación](#instalación-⚙️)
+- [Descripción](#descripción)
+- [Instalación](#instalación)
   - [Requisitos previos](#requisitos-previos)
   - [Pasos para instalar el proyecto](#pasos-para-instalar-el-proyecto)
-- [Uso](#uso-🚀)
+- [Uso](#uso)
   - [Cómo ejecutar el proyecto](#cómo-ejecutar-el-proyecto)
   - [Ejemplos de uso](#ejemplos-de-uso)
-- [Estructura del Proyecto](#estructura-del-proyecto-📂)
-- [Funcionalidades](#funcionalidades-🛠️)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas-💻)
-- [Contribución](#contribución-🤝)
-- [Autores](#autores-👩‍💻)
-- [Capturas de Pantalla](#capturas-de-pantalla-🖼️)
-- [Licencia](#licencia-📜)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Contribución](#contribución)
+- [Autores](#autores)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Licencia](#licencia)
 
-## Descripción 📝
+## Descripción
 
 Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre React. A partir de wireframes y maquetas diseñadas, hemos desarrollado una aplicación en la librería de JavaScript, React.js, para migrar la información de Google Store y añadir ciertas funcionalidades.
 
-## Instalación ⚙️
+## Instalación
 
 ### Requisitos previos
 
@@ -43,7 +43,7 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
     npm install
     ```
 
-## Uso 🚀
+## Uso
 
 ### Cómo ejecutar el proyecto
 
@@ -58,7 +58,7 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 - Navega a las páginas de Earbuds, Watches y Cart desde la barra de navegación.
 - Añade productos al carrito de compras y visualiza el resumen en la página del carrito.
 
-## Estructura del Proyecto 📂
+## Estructura del Proyecto
 
 ```plaintext
 /
@@ -84,7 +84,7 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 - **package.json:** Archivo de configuración del proyecto y dependencias.
 
 
-## Funcionalidades 🛠️
+## Funcionalidades
 
 - Barra de navegación que redirige a las páginas de Earbuds, Watches y Cart.
 - Cambio de color del ícono o texto según la página seleccionada.
@@ -95,7 +95,7 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 - Cálculo del subtotal y total con costos de envío.
 - Redirección a redes sociales desde el footer.
 
-## Tecnologías Utilizadas 💻
+## Tecnologías Utilizadas
 
 - [HTML5](https://developer.mozilla.org/es/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3)
@@ -104,7 +104,7 @@ Google Store React es un proyecto estudiantil cuyo objetivo es aprender sobre Re
 - [Vite](https://vitejs.dev/)
 - [Sass](https://sass-lang.com/)
 
-## Contribución 🤝
+## Contribución
 
 Nos encanta recibir contribuciones de la comunidad. Si deseas contribuir, por favor sigue estas pautas:
 
@@ -125,7 +125,7 @@ git push origin feature/nueva-caracteristica
 
 Por favor, asegúrate de seguir el [Código de Conducta de GitHub](https://docs.github.com/en/github/building-a-strong-community/code-of-conduct).
 
-## Developers 👩‍💻
+## Developers
 
 - [Ekaterina Buinovskaia](https://github.com/BSN-Asumiko) 
 - [Flavia Ferrigno](https://github.com/flaviferri) 
@@ -134,12 +134,12 @@ Por favor, asegúrate de seguir el [Código de Conducta de GitHub](https://docs.
 - [Belén Sánchez](https://github.com/Belensanchez1989)
 - [Eugenia Saravia](https://github.com/Euge-Saravia) 
 
-## Capturas de Pantalla 🖼️
+## Capturas de Pantalla
 
 ![Screenshot 2024-06-17 152654](https://github.com/rebkg87/Google-Store-React/assets/168748252/f230c053-cc1b-4822-8218-b64a66590024)
 ![Screenshot 2024-06-17 152629](https://github.com/rebkg87/Google-Store-React/assets/168748252/12cea02f-4e72-4bb4-abab-7a1b97f0d812)
 ![Screenshot 2024-06-17 152611](https://github.com/rebkg87/Google-Store-React/assets/168748252/0c075397-e890-429d-84e9-6dbd3b287b1c)
 
-## Licencia 📜
+## Licencia
 
 Puedes copiar y pegar este contenido en tu archivo `README.md` y ajustarlo según sea necesario. ¡Buena suerte con tu proyecto!
